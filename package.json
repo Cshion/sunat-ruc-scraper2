@@ -1,19 +1,19 @@
 {
-  "name": "sunat-ruc-scrapper2",
+  "name": "sunat-ruc-scraper2",
   "version": "0.0.1",
-  "description": "A simple scrapper to get RUC information from SUNAT public page.",
+  "description": "A simple scraper to get RUC information from SUNAT public page.",
   "main": "lib/index",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cshion/sunat-ruc-scrapper2.git"
+    "url": "git+https://github.com/Cshion/sunat-ruc-scraper2.git"
   },
   "author": "Cshion",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Cshion/sunat-ruc-scrapper2/issues"
+    "url": "https://github.com/Cshion/sunat-ruc-scraper2.git/issues"
   },
-  "homepage": "https://github.com/Cshion/sunat-ruc-scrapper2#readme",
+  "homepage": "https://github.com/Cshion/sunat-ruc-scraper2#readme",
   "dependencies": {
     "cheerio": "^0.20.0",
     "request": "^2.72.0"

@@ -4,7 +4,7 @@
 ```
 var scrapper = require("./lib");
 
-scrapper.getInformationByRuc("20131312955" , function ( err , data ) {
+scrapper.getInformation("20131312955" , function ( err , data ) {
 	if ( err ) {
 		console.error(err);
 	}else{

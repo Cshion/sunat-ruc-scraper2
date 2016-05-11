@@ -2,7 +2,7 @@
 
 ## Usage
 ```
-var scraper = require("./lib");
+var scraper = require("sunat-ruc-scraper2");
 
 scraper.getInformation("20131312955" , function ( err , data ) {
 	if ( err ) {

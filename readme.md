@@ -16,6 +16,12 @@ scraper.getInformation("20131312955" , function ( err , data ) {
 });
 ```
 
+## Features
+
+* scraper.getInformation(ruc,cb) => basic information
+* scraper.getExtendedInformation(ruc,cb) => extended information
+* Get history (TODO)
+
 ## Requirements
 
 * Nodejs >= 0.12

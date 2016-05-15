@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "A simple scraper to get RUC information from SUNAT public page.",
   "main": "lib/index",
-  "scripts": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cshion/sunat-ruc-scraper2.git"
@@ -17,5 +19,9 @@
   "dependencies": {
     "cheerio": "^0.20.0",
     "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }

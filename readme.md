@@ -1,5 +1,8 @@
 #Sunat ruc scraper2
-
+## Installation
+```
+npm install sunat-ruc-scraper2
+```
 ## Usage
 ```
 var scraper = require("sunat-ruc-scraper2");
@@ -14,5 +17,14 @@ scraper.getInformation("20131312955" , function ( err , data ) {
 ```
 
 ## Requirements
+
 * Nodejs >= 0.12
+
+## Test
+
+```
+npm test
+```
+
+
 

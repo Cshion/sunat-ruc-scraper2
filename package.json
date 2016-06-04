@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Cshion/sunat-ruc-scraper2#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.5",
     "cheerio": "^0.20.0",
+    "jszip": "^3.0.0",
     "request": "^2.72.0"
   },
   "devDependencies": {

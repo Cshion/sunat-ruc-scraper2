@@ -14,6 +14,15 @@ scraper.getInformation("20131312955" , function ( err , data ) {
 		//glhf
 	}
 });
+
+
+scraper.getInformation([ "20131312955" , "20601156530" ] , function ( err , data ) {
+	if ( err ) {
+		console.error(err);
+	}else{
+		//glhf
+	}
+});
 ```
 
 ## Features

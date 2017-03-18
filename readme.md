@@ -1,9 +1,13 @@
 #Sunat ruc scraper2
-## Installation
+## Descripcion
+* Este proyecto no usa ningun OCR,por lo cual es mas eficiente al momento del scrapping
+* Depende del estado de la pagina web de SUNAT,se devolvera un error asi que depende del caso de uso se tendra que pensar en alguna otra solucion de contingencia
+
+## Instalacion
 ```
 npm install sunat-ruc-scraper2
 ```
-## Usage
+## Uso
 ```
 var scraper = require("sunat-ruc-scraper2");
 
@@ -25,13 +29,13 @@ scraper.getInformation([ "20131312955" , "20601156530" ] , function ( err , data
 });
 ```
 
-## Features
+## Funcionalidades
 
 * scraper.getInformation(ruc,cb) => basic information
 * scraper.getExtendedInformation(ruc,cb) => extended information
 * Get history (TODO)
 
-## Requirements
+## Requisitos
 
 * Nodejs >= 0.12
 
